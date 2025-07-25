@@ -116,6 +116,137 @@ body {
   height: auto;
 }
 
+.product-section {
+  padding: 60px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.product-header h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-header p {
+  font-size: 16px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.5;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 15px 0 8px;
+  font-size: 18px;
+  color: #222;
+}
+
+.product-card .price {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.product-card button {
+  background-color: #E95A08;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.product-card button:hover {
+  background-color: #c44906;
+}
+
+.plants-lover-section {
+  padding: 60px 0;
+  background-color: #f4f4f4;
+}
+
+.plants-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 5%;
+}
+
+.plants-image {
+  flex: 1;
+  position: relative; 
+}
+
+.plants-image img:first-child {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.trusted-badge {
+  width: 80px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+.plants-text {
+  flex: 1;
+}
+
+.plants-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.plants-text .bold {
+  font-weight: bold;
+}
+
+.plants-text ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #555;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.plants-text li {
+  margin-bottom: 12px;
+}
 @media (max-width: 768px) {
   .nav-menu ul {
     gap: 0;
